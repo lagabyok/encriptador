@@ -1,0 +1,36 @@
+Julio de 2024 (versión 1.92)
+
+Mostrar notas de la versión después de una actualización
+
+Bienvenido a la versión de julio de 2024 de Visual Studio Code. Hay muchas actualizaciones en esta versión que esperamos que le gusten, algunas de las más destacadas incluyen:
+
+Navegador predeterminado: configure qué navegador usar para abrir enlaces en VS Code.
+Revertir PR: cree fácilmente un PR revertido para un PR fusionado.
+Actualizaciones de extensiones: configure más fácilmente la actualización automática de extensiones.
+Anular perfiles: anula un perfil existente con el Editor de perfiles.
+Pegar archivos en CSS: agregue rápidamente referencias de archivos CSS pegando o arrastrando y soltando.
+Mover el panel hacia arriba: coloque la sección del panel en la parte superior del banco de trabajo.
+Copilot usa GPT-4o: GitHub Copilot Chat actualizado a GPT-4o de OpenAI.
+Si desea leer estas notas de la versión en línea, vaya a Actualizaciones en code.visualstudio.com. Insiders: ¿Quiere probar nuevas funciones lo antes posible? Puede descargar la compilación nocturna de Insiders y probar las últimas actualizaciones tan pronto como estén disponibles.
+
+Accesibilidad
+Experiencia de depuración mejorada
+Cuadros de diálogo de ayuda de accesibilidad
+Agregamos cuadros de diálogo de ayuda de accesibilidad para la vista Ejecutar y Depurar y la Consola de Depuración. Obtendrá una pista sobre cómo abrir el cuadro de diálogo de ayuda accesible cuando cualquiera de las vistas esté enfocada. Configure esta sugerencia a través de la configuración accesibilidad.verbosity.debug.
+
+Vista accesible de la consola de depuración
+Ejecute el comando Abrir vista accesible (Alt+F2) para inspeccionar el contenido de la consola de depuración carácter por carácter, línea por línea.
+
+La configuración debug.autoExpandLazyVariables ahora está habilitada en el modo optimizado del lector de pantalla, para acceder fácilmente a los valores de las variables.
+
+Cuando se evalúa una expresión en la consola de depuración, su valor ahora se anuncia a los usuarios de lectores de pantalla.
+
+Anuncio de variable de vigilancia dinámica
+Al depurar con un lector de pantalla habilitado, ahora escuchará cuando cambian los valores de las variables del reloj. Configure esto con accesibilidad.debugWatchVariableAnnouncements.
+
+Configurar la acción de combinaciones de teclas
+En el hito anterior, introdujimos una acción para configurar combinaciones de teclas no asignadas en el cuadro de diálogo de ayuda de accesibilidad. Ahora hemos agregado el comando Configurar combinaciones de teclas asignadas (Alt+A) para complementar esta acción.
+
+Banco de trabajo
+Mover panel hacia arriba
+Ahora puede mover el Panel a la parte superior del banco de trabajo, encima del área del editor. De forma predeterminada, el Panel se coloca en la parte inferior e incluye vistas, como la terminal, el panel Salida y la Consola de depuración. Esta mejora complementa las opciones existentes de colocar el panel a la izquierda, derecha e inferior.
