@@ -1,6 +1,6 @@
 *{
-    margin: 0; /* Asegura que no haya márgenes por defecto que puedan afectar */
-    padding: 0; /* Asegura que no haya relleno por defecto que pueda afectar */
+    margin: 0;
+    padding: 0; 
     font-family: 'Inter';
     font-weight: 400;
     font-size: 32px;
@@ -26,17 +26,17 @@ main{
     display: flex;
     margin-bottom: 50px;
     margin-left: 80px;
-    padding: 10px;
-    gap: 20px; /* Espacio entre los elementos hijos */
+    padding: 20px;
+    gap: 2px; 
+
    
 }
 .form-group{
-    border: 3px solid rgb(255, 17, 0);
     background: none;
    
 }
 .resultado-group{
-    border: 3px solid rgb(255, 0, 200);
+
     background: none;
 }
 
@@ -46,6 +46,7 @@ main{
     text-transform: lowercase;
     border: none;
     background: none;
+    padding-left: 40px;
 
 }
 
@@ -58,20 +59,25 @@ main{
     outline: none;
 }
 
-.mensaje{
+
+
+.mensaje {
     background-color: #ddd;
-    background-image:url(imagenes/Muñeco.png) ;
+    background-image: url(imagenes/Muñeco.png);
     background-repeat: no-repeat;
-    border:none;
+    background-position: center; /* Centra la imagen en el medio del contenedor */
+    background-size: contain; /* Ajusta el tamaño de la imagen para que se ajuste al contenedor sin distorsionarse */
+    border: none;
     border-radius: 24px;
     color: #001f3f;
     margin-right: 98px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 20px;
     position: relative;
-
+    height: 90%;
 }
+
 .mensaje:focus{
     outline: none;
 }
@@ -120,13 +126,16 @@ p{
     -webkit-text-stroke: 0.5px black;
 }
 .info {
-    color: #941616; /* Color del texto */
-    background: none !important; /* Sin fondo */
-    background-color: none !important; /* Asegura que el color de fondo sea transparente */
+    color: #495057;
+
+    background-color: transparent;
+    background: none;
 }
 
 h6{
     font-size: 18px;
+    background-color: transparent;
+    background: none;
     
 }
 
