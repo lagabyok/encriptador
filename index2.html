@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Encriptador de Textos</title>
     <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
-    <div class="titulopage"><h1>Encriptador de Textos</h1></div>
-    <div class="container">
-        <div class="form-group">
-            <textarea id="inputTexto" placeholder="Ingresa el texto aquí..."></textarea>
-        </div>
-        <div class="buttons">
-            <button onclick="encriptarTexto()">Encriptar</button>
-            <button onclick="desencriptarTexto()">Desencriptar</button>
-        </div>
-        <div class="resultado-group">
-            <h2>Resultado:</h2>
-            <textarea id="resultado" readonly></textarea>
-        </div>
-    </div>
+    <header><img class="logo" src="imagenes\Logo.png" alt="logo de alura"></header>
+    <main class="container">
+        <section class="form-group">
+            <textarea class="texto" id="inputTexto" cols="20" rows="10" placeholder="Ingresa el texto aquí..."></textarea>
+            <div class="info"><h6>Solo letras minusculas y sin acentos.</h6></div>
+            <div class="buttons">
+                <button class="encriptar" onclick="encriptarTexto()">Encriptar</button>
+                <button class="desencriptar" onclick="desencriptarTexto()">Desencriptar</button>
+            </div>
+        </section>
+        
+        <section class="resultado-group">
+            <textarea class="mensaje" id="resultado" cols="20" rows="10" readonly></textarea>
+        </section>
+    </main>
     <footer>
         <p>Desarrollado por Gabriela Coronel</p>
     </footer>

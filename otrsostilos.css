@@ -1,0 +1,102 @@
+body {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #add8e6, #001f3f, #4B0082);
+
+}
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+
+}
+.titulopage{
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 15px;
+    width: 100%;
+    height: 90vh;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    border: yellow;
+    background-color: antiquewhite;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+textarea {
+    width: 300px;
+    height: 450px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttons button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+.resultado-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+h2 {
+    margin: 0 0 10px 0;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    padding: 10px;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    margin-top: 100px;
+}
+/* Encriptador - 1 Desktop */
+
