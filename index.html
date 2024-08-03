@@ -7,6 +7,19 @@
     <title>Desafio Encriptador</title>
 </head>
 <body>
+    <div class="container">
+        <h1>Encriptador de Textos</h1>
+        <textarea id="inputTexto" placeholder="Ingresa el texto aquí..."></textarea>
+        <select id="opcion">
+            <option value="encriptar">Encriptar</option>
+            <option value="desencriptar">Desencriptar</option>
+        </select>
+        <input type="number" id="desplazamiento" placeholder="Desplazamiento (número)">
+        <button onclick="procesarTexto()">Procesar</button>
+        <button onclick="copiar()">Copiar</button>
+        <h2>Resultado:</h2>
+        <textarea id="resultado" readonly></textarea>
+    </div>
     
     <script src="app.js"></script>
 </body>

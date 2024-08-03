@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Textos</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="titulopage"><h1>Encriptador de Textos</h1></div>
+    <div class="container">
+        <div class="form-group">
+            <textarea id="inputTexto" placeholder="Ingresa el texto aquí..."></textarea>
+        </div>
+        <div class="buttons">
+            <button onclick="encriptarTexto()">Encriptar</button>
+            <button onclick="desencriptarTexto()">Desencriptar</button>
+        </div>
+        <div class="resultado-group">
+            <h2>Resultado:</h2>
+            <textarea id="resultado" readonly></textarea>
+        </div>
+    </div>
+    <footer>
+        <p>Desarrollado por Gabriela Coronel</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
