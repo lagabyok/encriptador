@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Encriptador de Textos</title>
     <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
-    <header><img class="logo" src="imagenes\Logo.png" alt="logo de alura"></header>
+    <header><img class="logo" src="imagenes/Logo.png" alt="logo de alura"></header>
     <main class="container">
         <section class="form-group">
             <textarea class="texto" id="inputTexto" cols="30" rows="10" placeholder="Ingresa el texto aquí..."></textarea>
             <div class="info"><h6>Solo letras minusculas y sin acentos.</h6></div>
             <div class="buttons">
-                <button class="encriptar" onclick="encriptarTexto()">Encriptar</button>
-                <button class="desencriptar" onclick="desencriptarTexto()">Desencriptar</button>
+                <button class="encriptar" onclick="btnEncriptarTexto()">Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptarTexto()">Desencriptar</button>
             </div>
         </section>
         
-        
         <section class="resultado-group">
             <textarea class="mensaje" id="resultado" cols="17" rows="10" readonly></textarea>
+            <div class="btnc">
+                <button class="copiar" onclick="btnCopiaTexto()">Copiar</button>
+            </div>
         </section>
     </main>
     <footer>
         <p>Desarrollado por Gabriela Coronel</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
